@@ -1,4 +1,4 @@
-# Misanastudio
+# Tee mockup generator
 
 Image processing utilities for studio assets. Background removal runs locally with [rembg](https://github.com/danielgatis/rembg) and BiRefNet models - free, offline, and suitable for portraits with fine hair edges.
 
