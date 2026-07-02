@@ -32,12 +32,12 @@ from generate_mockup import (
     save_image,
 )
 
-DEFAULT_TEE = Path("Assets/OneDrive_1_7-1-2026/MCC-edited/no-models/MCC001-2_nobg.png")
-DEFAULT_ARTWORK = Path("Assets/attachment/绣花/绣花/extracted/3D Embroidery_extracted.png")
+DEFAULT_TEE = Path("Assets/extracted-tee/MCC001_nobg.png")
+DEFAULT_ARTWORK = Path("Assets/extracted-artworks/Loop Embroidery_extracted.png")
 DEFAULT_OUTPUT = Path("Assets/fabric-swatches/sample.png")
 
-DEFAULT_ARTWORKS = Path("Assets/attachment/绣花/绣花/extracted")
-DEFAULT_TEES = Path("Assets/OneDrive_1_7-1-2026/MCC-edited/no-models")
+DEFAULT_ARTWORKS = Path("Assets/extracted-artworks")
+DEFAULT_TEES = Path("Assets/extracted-tee")
 DEFAULT_BATCH_OUTPUT = Path("Assets/fabric-swatches")
 
 SWATCH_PLACEMENT = (0.50, 0.50, 0.72, 0.72)

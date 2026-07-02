@@ -3,8 +3,8 @@
 Batch-generate mockups for every artwork × tee combination.
 
 Defaults:
-  Artworks: Assets/attachment/绣花/绣花/extracted
-  Tees:     Assets/OneDrive_1_7-1-2026/MCC-edited/no-models
+  Artworks: Assets/extracted-artworks
+  Tees:     Assets/extracted-tee
   Output:   Assets/mockups/{tee_name}/{artwork_name}.png (transparent)
 
 Usage:
@@ -28,8 +28,8 @@ from generate_mockup import (
     safe_name,
 )
 
-DEFAULT_ARTWORKS = Path("Assets/attachment/绣花/绣花/extracted")
-DEFAULT_TEES = Path("Assets/OneDrive_1_7-1-2026/MCC-edited/no-models")
+DEFAULT_ARTWORKS = Path("Assets/extracted-artworks")
+DEFAULT_TEES = Path("Assets/extracted-tee")
 DEFAULT_OUTPUT = Path("Assets/mockups")
 
 

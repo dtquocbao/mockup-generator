@@ -27,8 +27,8 @@ import cv2
 import numpy as np
 from PIL import Image
 
-DEFAULT_TEE = Path("Assets/OneDrive_1_7-1-2026/MCC/MCC001-2.JPG")
-DEFAULT_OUTPUT = Path("Assets/OneDrive_1_7-1-2026/MCC/MCC001-2_mockup.png")
+DEFAULT_TEE = Path("Assets/extracted-tee/MCC001-2.JPG")
+DEFAULT_OUTPUT = Path("Assets/mockups/MCC001-2_mockup.png")
 SEGMENTATION_MODEL = "birefnet-general"
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tiff", ".tif"}
 

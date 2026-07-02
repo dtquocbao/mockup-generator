@@ -20,8 +20,8 @@ from pathlib import Path
 from PIL import Image
 from rembg import new_session, remove
 
-DEFAULT_INPUT = Path("Assets/OneDrive_1_7-1-2026/MCC/MCC001.jpeg")
-DEFAULT_OUTPUT = Path("Assets/OneDrive_1_7-1-2026/MCC/MCC001_nobg.png")
+DEFAULT_INPUT = Path("Assets/raw-tee/MCC001-2.JPG")
+DEFAULT_OUTPUT = Path("Assets/extracted-tee/MCC001_nobg.png")
 
 # birefnet-portrait: best for studio headshots / half-body portraits
 # birefnet-general: strong all-purpose model when portrait model is not ideal

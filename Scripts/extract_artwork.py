@@ -7,7 +7,7 @@ Uses rembg with models tuned for objects/products on textured backgrounds
 
 Usage:
     python scripts/extract_artwork.py
-    python scripts/extract_artwork.py -i "Assets/attachment/绣花/绣花" -o "./extracted" --batch
+    python scripts/extract_artwork.py -i "Assets/raw-artworks" -o "./extracted" --batch
     python scripts/extract_artwork.py -i "photo.png" -o "artwork.png" -a
 """
 
@@ -20,8 +20,8 @@ from pathlib import Path
 from PIL import Image
 from rembg import new_session, remove
 
-DEFAULT_INPUT = Path("Assets/attachment/绣花/绣花")
-DEFAULT_OUTPUT = Path("Assets/attachment/绣花/绣花/extracted")
+DEFAULT_INPUT = Path("Assets/raw-artworks")
+DEFAULT_OUTPUT = Path("Assets/extracted-artworks")
 
 # bria-rmbg: best for product/object photos on fabric (e-commerce trained)
 # birefnet-general: strong fallback for varied embroidery styles
