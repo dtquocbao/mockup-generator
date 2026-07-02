@@ -2,8 +2,9 @@
 
 Image processing utilities for studio assets. Background removal runs locally with [rembg](https://github.com/danielgatis/rembg) and BiRefNet models - free, offline, and suitable for portraits with fine hair edges.
 
-| Raw Tee | Raw Artwork | Mockup |
-| ![raw-tee](https://github.com/dtquocbao/mockup-generator/blob/main/Assets/extracted-tee/MCC001_nobg.png?raw=true) | ![raw-artwork](https://github.com/dtquocbao/mockup-generator/blob/main/Assets/extracted-artworks/Loop%20Embroidery_extracted.png?raw=true) | ![mockup-result](https://github.com/dtquocbao/mockup-generator/blob/main/Assets/mockups/MCC001_nobg/Loop%20Embroidery.png?raw=true) |
+| Raw Tee | Raw Artwork | Mockup Result |
+|:-------:|:-----------:|:-------------:|
+| <img src="https://github.com/dtquocbao/mockup-generator/blob/main/Assets/extracted-tee/MCC001_nobg.png?raw=true" width="250"> | <img src="https://github.com/dtquocbao/mockup-generator/blob/main/Assets/extracted-artworks/Loop%20Embroidery_extracted.png?raw=true" width="250"> | <img src="https://github.com/dtquocbao/mockup-generator/blob/main/Assets/mockups/MCC001_nobg/Loop%20Embroidery.png?raw=true" width="250"> |
 
 ## Requirements
 
