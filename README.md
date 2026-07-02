@@ -30,7 +30,7 @@ python scripts/extract_artwork.py --batch --trim
 Process a single file:
 
 ```powershell
-python scripts/extract_artwork.py -i "Assets/attachment/绣花/绣花/3D Embroidery.png" -o "extracted/3D Embroidery.png"
+python scripts/extract_artwork.py -i "Assets/raw-artworks/3D Embroidery.png" -o "extracted/3D Embroidery.png"
 ```
 
 Batch a folder:
@@ -57,7 +57,7 @@ python scripts/extract_artwork.py -i "photo.png" -o "artwork.png" -a --trim
 | `--trim` | Crop transparent padding around the artwork |
 | `--padding` | Padding pixels when trimming (default: 8) |
 
-**Tips:** Low-contrast cases (e.g. white embroidery on white fabric) may need `-a` or try `-m birefnet-dis`. Outputs go to `Assets/attachment/绣花/绣花/extracted/` by default.
+**Tips:** Low-contrast cases (e.g. white embroidery on white fabric) may need `-a` or try `-m birefnet-dis`. Outputs go to `Assets/extracted-xxx` by default.
 
 ## Remove background (portraits)
 
@@ -106,8 +106,8 @@ python scripts/batch_mockups.py
 ```
 
 Defaults:
-- Artworks: `Assets/attachment/绣花/绣花/extracted`
-- Tees: `Assets/OneDrive_1_7-1-2026/MCC-edited/no-models`
+- Artworks: `Assets/attachment/extracted-artworks`
+- Tees: `Assets/extracted-tee`
 - Output: `Assets/mockups/{tee_name}/{artwork_name}.png` (transparent PNG by default)
 
 Resume a partial run:
